@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/media/K.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/styles/login.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kuepa Login</title>
+  </head>
+  <body>
+    <header></header>
+    <form action="/authenticate" method="POST">
+      <img width="190px" src="./assets/media/logo.png" alt="Logo" />
+      <h1>Iniciar sesión</h1>
+      <label for="email">
+        <input
+          required
+          type="text"
+          name="username"
+          id="email"
+          placeholder="usuario"
+        />
+      </label>
+      <label for="password">
+        <input
+          required
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+        />
+      </label>
+      <button>Iniciar Sesión</button>
+      <a href="/register.html">¿Quieres crear una cuenta?</a>
+    </form>
+  </body>
+</html>

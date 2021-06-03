@@ -1,0 +1,30 @@
+{
+  "name": "prueba-tecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseGarcia2001/prueba-tecnica-kuepa.git"
+  },
+  "keywords": [],
+  "author": "Jose Garcia <jagarcia7655@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseGarcia2001/prueba-tecnica-kuepa/issues"
+  },
+  "homepage": "https://github.com/JoseGarcia2001/prueba-tecnica-kuepa#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2"
+  }
+}

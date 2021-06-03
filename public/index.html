@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/media/K.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kuepa Live Class</title>
+  </head>
+  <body>
+    <header>
+      <img width="190px" src="./assets/media/logo.png" alt="Logo" />
+    </header>
+    <main>
+      <section class="content">
+        <video
+          controls
+          width="100%"
+          src="./assets/media/¿Cómo hacer un presupuesto en Google Sheets - Google Drive_.mp4"
+        ></video>
+        <div class="content-description">
+          <div class="content-description_title">
+            <img src="./assets/media/logo.png" alt="Logo" />
+            <h3>¿Como hacer un presupuesto en google sheets?</h3>
+          </div>
+          <hr />
+          <p>
+            En esta clase aprenderemos como crear de manera rápida y sencilla un
+            presuspuesto en Google Sheets para que no te enrolles.
+          </p>
+        </div>
+      </section>
+      <section class="chat">
+        <ul class="chat-messages"></ul>
+        <form class="chat-form" action="">
+          <div class="chat-input">
+            <input
+              class="input"
+              autocomplete="off"
+              placeholder="Comparte algo.."
+            />
+            <button>
+              <img
+                width="20px"
+                src="./assets/media/send-arrow.svg"
+                alt="enviar"
+              />
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
