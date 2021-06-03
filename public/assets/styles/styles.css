@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+}
+
+header img {
+  margin: 0 auto;
+}
+
+main {
+  margin: 20px;
+}
+
+.content video {
+  width: 100%;
+}
+
+.content-description_title img {
+  object-fit: contain;
+  width: 40px;
+}
+
+.content-description_title {
+  gap: 30px;
+  display: flex;
+  margin: 10px 0;
+}
+
+.content-description p {
+  margin-top: 20px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* position: relative; */
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  max-height: 50vh;
+}
+
+.chat-input {
+  /* position: absolute; */
+  /* right: 0; */
+  /* left: 0; */
+  /* bottom: 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #f06724;
+}
+
+.chat-input input {
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.chat-input button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 20px;
+  height: 20px;
+}
+
+.chat-messages {
+  list-style: none;
+  margin: 10px 10px 0px;
+  height: 90%;
+  overflow-y: auto;
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 5px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+.chat-messages::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.chat-messages li {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.message-info {
+  display: flex;
+  gap: 8px;
+}
+
+.message-info .name {
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.message-info .date {
+  opacity: 0.3;
+}
+
+.message-info .role {
+  opacity: 0.6;
+}
+
+.moderator {
+  color: #f06724;
+}
+
+@media (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+  }
+
+  .chat {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 80vh;
+  }
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background: rgb(240 103 36 / 85%);
+}
+
+form {
+  margin: 100px auto;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -2px 9px 11px rgb(0 0 0 / 25%);
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.473);
+  width: 80%;
+}
+
+input {
+  background: none;
+  outline: none;
+  width: 100%;
+  border: none;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.555);
+  padding-left: 15px;
+  font-family: "Karla", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  border-radius: 5px;
+  background: none;
+  margin-top: 30px;
+  font-weight: bold;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: black;
+}
+
+.role select {
+  margin-right: 30px;
+}
