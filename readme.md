@@ -17,7 +17,7 @@ Hola, Soy José García esta fué mi solución a la prueba. Hice mi mayor esfuer
 Clona y accede al proyecto
 
 ```sh
-git clone git@github.com:JoseGarcia2001/prueba-tecnica-kuepa.git
+git clone https://github.com/JoseGarcia2001/prueba-tecnica-kuepa.git
 cd prueba-tecnica-kuepa
 ```
 
